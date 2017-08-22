@@ -1,0 +1,16 @@
+sudo: required
+language: node_js
+
+node_js:
+- '8'
+
+script:
+- npm test
+
+deploy:
+  provider: npm
+  email: spanners@findmypast.com
+  api_key: $NPM_TOKEN
+  on:
+    tags: true
+    repo: findmypast-oss/eslint-config-findmypast
