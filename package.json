@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-findmypast",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Eslint configuration for findmypast",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/findmypast-oss/eslint-config-findmypast.git"
   },
-  "keywords": ["eslint"],
+  "keywords": [
+    "eslint"
+  ],
   "author": "Neil Crawford",
   "license": "Apache-2.0",
   "bugs": {
