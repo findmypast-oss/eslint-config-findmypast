@@ -1,5 +1,11 @@
 module.exports = {
-  extends: ['eslint:recommended', 'prettier', 'prettier/flowtype'],
+  extends: [
+    'eslint:recommended',
+    'prettier',
+    'prettier/flowtype',
+    'plugin:flowtype/recommended',
+  ],
+  plugins: ['flowtype'],
   rules: {
     // The rules below are listed in the order they appear on the eslint
     // rules page. All rules are listed to make it easier to keep in sync
@@ -145,7 +151,7 @@ module.exports = {
     'no-undef': 2,
     // 'no-undef-init': 0,
     // 'no-undefined': 0,
-    'no-unused-vars': 1,
+    'no-unused-vars': [1, { varsIgnorePattern: '^_', argsIgnorePattern: '^_' }],
     // 'no-use-before-define': 0,
 
     // Node.js and CommonJS
@@ -315,5 +321,9 @@ module.exports = {
     // 'symbol-description': 0,
     // 'template-curly-spacing': 0,
     // 'yield-star-spacing': [2, 'after'],
+
+    // Flowtype rules
+    'flowtype/no-weak-types': 1,
+    'flowtype/space-after-type-colon': 0,
   },
 };
