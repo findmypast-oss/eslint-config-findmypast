@@ -252,17 +252,17 @@ module.exports = {
     'padded-blocks': [2, 'never'],
     // 'padding-line-between-statements': 0,
     // 'quote-props': [2, 'consistent'],
-    quotes: [2, 'single', { allowTemplateLiterals: true }],
-    'require-jsdoc': [
-      2,
-      {
-        require: {
-          FunctionDeclaration: true,
-          MethodDefinition: true,
-          ClassDeclaration: true,
-        },
-      },
-    ],
+    // quotes: [2, 'single', { allowTemplateLiterals: true }],
+    // 'require-jsdoc': [
+    //   2,
+    //   {
+    //     require: {
+    //       FunctionDeclaration: true,
+    //       MethodDefinition: true,
+    //       ClassDeclaration: true,
+    //     },
+    //   },
+    // ],
     semi: 2,
     'semi-spacing': 2,
     // 'semi-style': 0,
@@ -290,8 +290,7 @@ module.exports = {
     // http://eslint.org/docs/rules/#ecmascript-6
     // ------------------------------------------
     // 'arrow-body-style': 0,
-    'arrow-parens': [2, 'always'], // TODO(philipwalton): technically arrow
-    // parens are optional but recommended.
+    // 'arrow-parens': [2, 'always'],
     // ESLint doesn't support a *consistent*
     // setting so "always" is used.
     // 'arrow-spacing': 0,
