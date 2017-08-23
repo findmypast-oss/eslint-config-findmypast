@@ -2,8 +2,8 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'prettier',
-    'prettier/flowtype',
     'plugin:flowtype/recommended',
+    'prettier/flowtype',
   ],
   plugins: ['flowtype'],
   rules: {
