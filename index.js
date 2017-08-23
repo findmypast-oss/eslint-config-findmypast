@@ -67,7 +67,7 @@ module.exports = {
     // 'class-methods-use-this': 0,
     complexity: [1, 7],
     // 'consistent-return': 0
-    // curly: [2, 'multi-line'], // TODO(philipwalton): add an option to enforce
+    // curly: [2, 'multi-line'],
     // braces with the exception of simple,
     // single-line if statements.
     // 'default-case': 0,
@@ -192,7 +192,7 @@ module.exports = {
     // 'id-blacklist': 0,
     // 'id-length': 0,
     // 'id-match': 0,
-    // 'indent': 0, // TODO(philipwalton): this rule isn't compatible with
+    // 'indent': 0,
     // Google's 4-space indent for line continuations.
     // 'jsx-quotes': 0,
     // 'key-spacing': 2,
@@ -215,7 +215,7 @@ module.exports = {
     // 'max-params': 0,
     // 'max-statements': 0,
     // 'max-statements-per-line': 0,
-    // 'multiline-ternary': 0, // TODO(philipwalton): add a rule to enforce the
+    // 'multiline-ternary': 0,
     // operator appearing at the end of the line.
     'new-cap': 2,
     // 'new-parens': 0,
