@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-findmypast",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Eslint sharable configuration for Findmypast JavaScript style",
   "files": [
     "index.js",
