@@ -29,7 +29,7 @@ module.exports = {
     // 'no-func-assign': 2, // eslint:recommended
     // 'no-inner-declarations': 2, // eslint:recommended
     // 'no-invalid-regexp': 2, // eslint:recommended
-    'no-irregular-whitespace': 2, // eslint:recommended
+    // 'no-irregular-whitespace': 2, // eslint:recommended
     // 'no-obj-calls': 2, // eslint:recommended
     // 'no-prototype-builtins': 0,
     // 'no-regex-spaces': 2, // eslint:recommended
@@ -40,15 +40,15 @@ module.exports = {
     // 'no-unsafe-finally': 2, // eslint:recommended
     // 'no-unsafe-negation': 0,
     // 'use-isnan': 2 // eslint:recommended
-    'valid-jsdoc': [
-      2,
-      {
-        requireParamDescription: false,
-        requireReturnDescription: false,
-        requireReturn: false,
-        prefer: { returns: 'return' },
-      },
-    ],
+    // 'valid-jsdoc': [
+    //   2,
+    //   {
+    //     requireParamDescription: false,
+    //     requireReturnDescription: false,
+    //     requireReturn: false,
+    //     prefer: { returns: 'return' },
+    //   },
+    // ],
     // 'valid-typeof': 2 // eslint:recommended
 
     // Best Practices
@@ -166,20 +166,20 @@ module.exports = {
     // Stylistic Issues
     // http://eslint.org/docs/rules/#stylistic-issues
     // ----------------------------------------------
-    'array-bracket-newline': 0, // eslint:recommended
-    'array-bracket-spacing': [2, 'never'],
-    'array-element-newline': 0, // eslint:recommended
-    'block-spacing': [2, 'never'],
-    'brace-style': 2,
+    // 'array-bracket-newline': 0, // eslint:recommended
+    // 'array-bracket-spacing': [2, 'never'],
+    // 'array-element-newline': 0, // eslint:recommended
+    // 'block-spacing': [2, 'never'],
+    // 'brace-style': 2,
     camelcase: [2, { properties: 'never' }],
     // 'capitalized-comments': 0,
-    'comma-dangle': [2, 'always-multiline'],
-    'comma-spacing': 2,
-    'comma-style': 2,
-    'computed-property-spacing': 2,
+    // 'comma-dangle': [2, 'always-multiline'],
+    // 'comma-spacing': 2,
+    // 'comma-style': 2,
+    // 'computed-property-spacing': 2,
     // 'consistent-this': 0,
-    'eol-last': 2,
-    'func-call-spacing': 2,
+    // 'eol-last': 2,
+    // 'func-call-spacing': 2,
     // 'func-name-matching': 0,
     // 'func-names': 0,
     // 'func-style': 0,
@@ -189,21 +189,21 @@ module.exports = {
     // 'indent': 0, // TODO(philipwalton): this rule isn't compatible with
     // Google's 4-space indent for line continuations.
     // 'jsx-quotes': 0,
-    'key-spacing': 2,
-    'keyword-spacing': 2,
+    // 'key-spacing': 2,
+    // 'keyword-spacing': 2,
     // 'line-comment-position': 0,
-    'linebreak-style': 0,
+    // 'linebreak-style': 0,
     // 'lines-around-comment': 0,
     // 'max-depth': 0,
-    'max-len': [
-      2,
-      {
-        code: 80,
-        tabWidth: 2,
-        ignoreUrls: true,
-        ignorePattern: '^goog.(module|require)',
-      },
-    ],
+    // 'max-len': [
+    //   2,
+    //   {
+    //     code: 80,
+    //     tabWidth: 2,
+    //     ignoreUrls: true,
+    //     ignorePattern: '^goog.(module|require)',
+    //   },
+    // ],
     // 'max-lines': 0,
     // 'max-nested-callbacks': 0,
     // 'max-params': 0,
@@ -220,7 +220,7 @@ module.exports = {
     // 'no-inline-comments': 0,
     // 'no-lonely-if': 0,
     // 'no-mixed-operators': 0,
-    'no-mixed-spaces-and-tabs': 2, // eslint:recommended
+    // 'no-mixed-spaces-and-tabs': 2, // eslint:recommended
     // 'no-multi-assign': 0,
     'no-multiple-empty-lines': [2, { max: 2 }],
     // 'no-negated-condition': 0,
@@ -228,9 +228,9 @@ module.exports = {
     'no-new-object': 2,
     // 'no-plusplus': 0,
     // 'no-restricted-syntax': 0,
-    'no-tabs': 2,
+    // 'no-tabs': 2,
     // 'no-ternary': 0,
-    'no-trailing-spaces': 2,
+    // 'no-trailing-spaces': 2,
     // 'no-underscore-dangle': 0,
     // 'no-unneeded-ternary': 0,
     // 'no-whitespace-before-property': 0,
@@ -249,7 +249,7 @@ module.exports = {
     // 'one-var-declaration-per-line': 0,
     // 'operator-assignment': 0,
     // 'operator-linebreak': 0,
-    'padded-blocks': [2, 'never'],
+    // 'padded-blocks': [2, 'never'],
     // 'padding-line-between-statements': 0,
     // 'quote-props': [2, 'consistent'],
     // quotes: [2, 'single', { allowTemplateLiterals: true }],
@@ -263,25 +263,18 @@ module.exports = {
     //     },
     //   },
     // ],
-    semi: 2,
-    'semi-spacing': 2,
+    // semi: 2,
+    // 'semi-spacing': 2,
     // 'semi-style': 0,
     // 'sort-keys': 0,
     // 'sort-vars': 0,
-    'space-before-blocks': 2,
-    'space-before-function-paren': [
-      2,
-      {
-        asyncArrow: 'always',
-        anonymous: 'never',
-        named: 'never',
-      },
-    ],
+    // 'space-before-blocks': 2,
+    // 'space-before-function-paren': 0,
     // 'space-in-parens': 0,
     // 'space-infix-ops': 0,
     // 'space-unary-ops': 0,
     'spaced-comment': [2, 'always'],
-    'switch-colon-spacing': 2,
+    // 'switch-colon-spacing': 2,
     // 'template-tag-spacing': 0,
     // 'unicode-bom': 0,
     // 'wrap-regex': 0,
@@ -295,7 +288,7 @@ module.exports = {
     // setting so "always" is used.
     // 'arrow-spacing': 0,
     'constructor-super': 2, // eslint:recommended
-    'generator-star-spacing': [2, 'after'],
+    // 'generator-star-spacing': 0,
     // 'no-class-assign': 0,
     // 'no-confusing-arrow': 0,
     // 'no-const-assign': 0, // eslint:recommended
@@ -317,10 +310,10 @@ module.exports = {
     'prefer-spread': 2,
     // 'prefer-template': 0,
     // 'require-yield': 2, // eslint:recommended
-    'rest-spread-spacing': 2,
+    // 'rest-spread-spacing': 2,
     // 'sort-imports': 0,
     // 'symbol-description': 0,
     // 'template-curly-spacing': 0,
-    'yield-star-spacing': [2, 'after'],
+    // 'yield-star-spacing': [2, 'after'],
   },
 };
