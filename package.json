@@ -1,22 +1,25 @@
 {
   "name": "eslint-config-findmypast",
   "version": "0.0.4",
-  "description": "Eslint configuration for findmypast",
-  "main": "index.js",
+  "description": "Eslint sharable configuration for Findmypast JavaScript style",
+  "files": ["index.js", "react.js"],
   "scripts": {
-    "test": "echo \"No tests yet\""
+    "test": "node index.spec.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/findmypast-oss/eslint-config-findmypast.git"
   },
-  "keywords": [
-    "eslint"
-  ],
+  "keywords": ["eslint, findmypast"],
   "author": "Neil Crawford",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/findmypast-oss/eslint-config-findmypast/issues"
   },
-  "homepage": "https://github.com/findmypast-oss/eslint-config-findmypast#readme"
+  "homepage": "https://github.com/findmypast-oss/eslint-config-findmypast#readme",
+  "dependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-react": "^7.3.0"
+  }
 }
