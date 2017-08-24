@@ -6,6 +6,22 @@ module.exports = {
     'prettier/flowtype',
   ],
   plugins: ['flowtype'],
+  overrides: [
+    {
+      files: ['**/*.js'],
+      excludedFiles: '*.spec.js',
+      rules: {
+        'max-lines': [
+          2,
+          {
+            max: 200,
+            skipBlankLines: true,
+            skipComments: true,
+          },
+        ],
+      },
+    },
+  ],
   rules: {
     // The rules below are listed in the order they appear on the eslint
     // rules page. All rules are listed to make it easier to keep in sync
