@@ -8,17 +8,9 @@ module.exports = {
   plugins: ['flowtype'],
   overrides: [
     {
-      files: ['**/*.js'],
-      excludedFiles: '*.spec.js',
+      files: ['**/*.spec.js'],
       rules: {
-        'max-lines': [
-          2,
-          {
-            max: 200,
-            skipBlankLines: true,
-            skipComments: true,
-          },
-        ],
+        'max-lines': 0,
       },
     },
   ],
@@ -226,7 +218,14 @@ module.exports = {
     //     ignorePattern: '^goog.(module|require)',
     //   },
     // ],
-    // 'max-lines': 0,
+    'max-lines': [
+      2,
+      {
+        max: 465,
+        skipBlankLines: true,
+        skipComments: true,
+      },
+    ],
     // 'max-nested-callbacks': 0,
     // 'max-params': 0,
     // 'max-statements': 0,
