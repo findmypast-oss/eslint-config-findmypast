@@ -27,6 +27,7 @@
     "eslint-config-prettier": "^2.3.0",
     "eslint-plugin-flowtype": "^2.35.0",
     "eslint-plugin-graphql": "^1.3.0",
-    "eslint-plugin-react": "^7.3.0"
+    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-titan-web": "http://npm.findmypast.dun.fh:5001/package/eslint-plugin-titan-web/latest"
   }
 }
