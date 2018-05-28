@@ -9,7 +9,7 @@ script:
 
 deploy:
   provider: npm
-  email: spanners@findmypast.com
+  email: oss@findmypast.com
   api_key: $NPM_TOKEN
   on:
     tags: true
