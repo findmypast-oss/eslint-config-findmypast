@@ -1,11 +1,5 @@
 module.exports = {
-  extends: [
-    'eslint:recommended',
-    'prettier',
-    'plugin:flowtype/recommended',
-    'prettier/flowtype',
-  ],
-  plugins: ['flowtype'],
+  extends: ['eslint:recommended', 'prettier'],
   overrides: [
     {
       files: ['**/*.spec.js'],
@@ -336,9 +330,5 @@ module.exports = {
     // 'symbol-description': 0,
     // 'template-curly-spacing': 0,
     // 'yield-star-spacing': [2, 'after'],
-
-    // Flowtype rules
-    'flowtype/no-weak-types': 1,
-    'flowtype/space-after-type-colon': 0,
   },
 };
