@@ -1,0 +1,10 @@
+{
+  "concurrent": false,
+  "linters": {
+    "**/package.json": ["prettier-package-json --write", "git add"],
+    "*.js": [
+      "prettier --config ./.prettierrc --write",
+      "git add"
+    ]
+  }
+}
