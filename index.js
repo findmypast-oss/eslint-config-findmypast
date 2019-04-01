@@ -308,7 +308,7 @@ module.exports = {
     // 'no-confusing-arrow': 0,
     // 'no-const-assign': 0, // eslint:recommended
     // 'no-dupe-class-members': 0, // eslint:recommended
-    // 'no-duplicate-imports': 0,
+    'no-duplicate-imports': 2,
     'no-new-symbol': 2, // eslint:recommended
     // 'no-restricted-imports': 0,
     'no-this-before-super': 2, // eslint:recommended
